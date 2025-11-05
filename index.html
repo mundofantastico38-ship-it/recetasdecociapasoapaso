@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario Casero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff914d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .recetas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px;
+            gap: 30px;
+        }
+
+        .plato {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .plato:hover {
+            transform: scale(1.03);
+        }
+
+        .plato img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .contenido {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff914d;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #ff914d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍴 Recetario Casero 🍴</h1>
+        <p>Descubre tres deliciosos platos y aprende a prepararlos paso a paso</p>
+    </header>
+
+    <section class="recetas">
+        <!-- Plato 1 -->
+        <div class="plato">
+            <img src="img/espaguetis-bolonesa.jpg" alt="Pasta a la boloñesa">
+            <div class="contenido">
+                <h2>Pasta a la Boloñesa</h2>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>200 g de pasta (espaguetis o fettuccine)</li>
+                    <li>150 g de carne molida</li>
+                    <li>1 tomate grande</li>
+                    <li>1/2 cebolla picada</li>
+                    <li>1 diente de ajo</li>
+                    <li>Salsa de tomate, sal, pimienta y orégano al gusto</li>
+                </ul>
+                <h3>Preparación paso a paso:</h3>
+                <ol>
+                    <li>Hierve la pasta en agua con sal durante 8-10 minutos. Escúrrela.</li>
+                    <li>Sofríe la cebolla y el ajo en un poco de aceite hasta que estén dorados.</li>
+                    <li>Agrega la carne molida y cocina hasta que cambie de color.</li>
+                    <li>Incorpora el tomate picado y la salsa de tomate. Cocina a fuego medio 10 minutos.</li>
+                    <li>Condimenta con sal, pimienta y orégano.</li>
+                    <li>Sirve la pasta y cúbrela con la salsa boloñesa caliente. ¡Listo!</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Plato 2 -->
+        <div class="plato">
+            <img src="img/ensalada-cesar.jpg" alt="Ensalada César">
+            <div class="contenido">
+                <h2>Ensalada César con Pollo</h2>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>1 pechuga de pollo</li>
+                    <li>Lechuga romana</li>
+                    <li>Crutones (pan tostado en cubos)</li>
+                    <li>Queso parmesano rallado</li>
+                    <li>Aderezo César</li>
+                </ul>
+                <h3>Preparación paso a paso:</h3>
+                <ol>
+                    <li>Asa o cocina la pechuga de pollo con sal y pimienta. Corta en tiras.</li>
+                    <li>Lava y seca la lechuga. Córtala en trozos grandes.</li>
+                    <li>En un bol grande mezcla la lechuga, el pollo, los crutones y el queso parmesano.</li>
+                    <li>Agrega el aderezo César y mezcla suavemente para que todo quede bien cubierto.</li>
+                    <li>Sirve inmediatamente. Puedes decorar con más parmesano o crutones.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Plato 3 -->
+        <div class="plato">
+            <img src="img/bigstock-three-carne-asada-mexican-stre-385360028-scaled.jpg" alt="Tacos mexicanos">
+            <div class="contenido">
+                <h2>Tacos Mexicanos</h2>
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>6 tortillas de maíz</li>
+                    <li>200 g de carne de res o pollo</li>
+                    <li>Cebolla picada</li>
+                    <li>Cilantro fresco</li>
+                    <li>Salsa al gusto</li>
+                    <li>Limón y sal</li>
+                </ul>
+                <h3>Preparación paso a paso:</h3>
+                <ol>
+                    <li>Cocina la carne con sal y especias hasta que esté bien dorada.</li>
+                    <li>Calienta las tortillas unos segundos en un sartén o plancha.</li>
+                    <li>Coloca la carne en el centro de cada tortilla.</li>
+                    <li>Agrega cebolla, cilantro y un poco de salsa al gusto.</li>
+                    <li>Exprime un poco de limón encima y disfruta tus tacos calientes.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Recetario Casero - katherine Dayana Hernandez y Everth Isaac Iglesias </p>
+    </footer>
+</body>
+</html>
